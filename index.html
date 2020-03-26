@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is External Javascript</h1>
+    <!-- <script src = "starPattern.js"></script> -->
+<script src="jquery-3.4.1.js"></script>
+<script src = "jQuery.js"></script>
+<script>
+    $(document).ready(function(){
+     $("#in1").keypress(function(event){
+       $("#d1").html("Key: " + event.which)
+       if (event.which == 13) {
+           let text = $(this).val()
+           $(this).val("");
+           $("#d1").html(text)           
+       }
+     });
+    });
+    </script>
+    </head>
+    <body>
+     Enter : <input id="in1" type="text">
+    <div id="d1">D1</div>
+    
 </body>
-<script src = "index.js">  </script>
-<script src = "index2.js"></script>
 </html>
