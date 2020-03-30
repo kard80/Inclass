@@ -1,57 +1,33 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './indexKard.css'
-// import './App.css';
+import './App.css';
+import { Route, Redirect, Switch, Link } from 'react-router-dom'
+import Home from './pages/Home';
+import About from './pages/About';
+import Map from './pages/Map'
+import Profile from './pages/Profile'
+import NotFound from './pages/NotFound';
 
+function App() {
+  return (
+    <div className="App">
+      <Link to = "/index">Home</Link>
+      <br />
+      <Link to = "/map">Map</Link>
+      <br />
+      <Link to = "/about">About</Link>
+      <br />
+      <Link to = "/profile">Profile</Link>
 
+      <Switch>
+        <Route exact path="/index" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/map" component={Map} />
+        <Route path = "/profile:id" component = {Profile} />
+        <Route exact path="/error" component={NotFound} />
+        <Redirect to="/error" />
+      </Switch>
+    </div>
+  )
+}
 
-// export default function App(props) {
-//   let {name, a, b, c, d} = props;
-
-//   console.log({name: name});
-//   console.log({a: a});
-//   console.log({b: b});
-//   console.log({c: c});
-//   console.log({d: d});
-
-
-//   let arr = []
-//   while(true) {
-//   let grade = prompt("What is your grade");
-//   if (grade == "stop") {
-//     break
-//   }else if (grade >= 80) {
-//     arr.push({"grades": grade,"values": 'A'})
-//   }else if (grade >= 70) {
-//     arr.push({"grades": grade,"values": 'B'})
-//   }else if (grade >= 60) {
-//     arr.push({"grades": grade,"values": 'C'})
-//   }else if (grade >= 50) {
-//     arr.push({"grades": grade,"values": 'D'})
-//   }else if (grade == '') {
-//     arr.push({"grades": grade,"values": 'Wrong Format'}) 
-//   }else if (grade < 50) {
-//     arr.push({"grades": grade,"values": 'F'})
-//   }else {
-//     arr.push({"grades": grade,"values": 'Wrong Format'})
-//   }
-  
-//   }
-//   return (
-//     <div className="App">
-//       <table>
-//         <tr>
-//           <td> Score</td>
-//           <td> Grade</td>
-//         </tr>
-//         {arr.map ((item) => <tr>
-//           <td> {item.grades}</td>
-//           <td>{item.values}</td>
-//           </tr>)}
-//       </table>
-//     </div>
-//   );
-// }
-
-// export default App;
-
+export default App
