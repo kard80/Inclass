@@ -1,0 +1,57 @@
+
+.LeftBody :first-child {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.LeftBody :nth-child(2) {
+    font-size: 21px;
+    margin-bottom: 21px;
+}
+
+.userOverview {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -20px;
+}
+
+.user {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.user:last-of-type div {
+    color: #385898;
+}
+
+.trouble{
+    height: 160px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #f5f6f7;
+    
+
+} 
+
+img {
+    height: 160px;
+    border-radius: 4px 4px 0 0;
+
+}
+
+
+.text {
+    background-color: white;
+    text-align: center;
+    color: #4b4f56;
+    font-size: 12px;
+    padding: 8px 0px;
+    border-radius: 0 0 4px 4px;
+    font-weight: normal;
+}

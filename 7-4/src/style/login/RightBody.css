@@ -1,0 +1,109 @@
+.rowInLeft1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.rowInLeft2 {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+
+.textInput{
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    padding: 8px 10px;
+    width: 372px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.firstInput input{
+    width: 170px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    padding: 8px 10px;
+    font-size: 20px;
+}
+
+.dateBox select{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+}
+
+.topic {
+    font-size: 18;
+    color: #90949c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.radio {
+    color: #1d2129;
+    padding: 0 10px 0 3px;
+    margin-top: 10px;
+}
+
+.radio span {
+    margin-right: 13px;
+}
+
+.radio span label {
+    font-size: 20px;
+}
+
+.RightBody button {
+    font-size: 21px;
+    padding: 7px 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #69a74e;
+    background: linear-gradient(#67ae55, #578843);
+    margin: 10px 0 10px 0;
+    min-width: 194px;
+    line-height: 124%;
+    border-radius: 5px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: inset 0 1px 1px #a4e388;
+}
+
+.RightBody button:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.describe {
+    font-size: 13px;
+    color: #777;
+    width: 316px;
+}
+
+.describe p a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.describe p a:hover {
+    text-decoration: underline;
+}
+
+.mark {
+    font-size: 15px;
+    color: #666;
+    font-weight: bold;
+    border-top: 1px solid #dddfe2;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.mark a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.mark a:hover {
+    text-decoration: underline;
+}
