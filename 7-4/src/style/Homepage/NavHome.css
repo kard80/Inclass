@@ -1,0 +1,121 @@
+.NavHome {
+    height: 42px;
+    background-color: #4267B2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1217px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchText {
+    width: 529.14px;
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+
+.searchText input {
+    width: 393px;
+    color: #1D2123;
+    height: 24px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    padding: 0 5px 0 0px;
+    font-size: 16px;
+    text-indent: 10px;
+}
+
+.searchText button {
+    background-color: #F5F6F7;
+    border: none;
+    width: 46px;
+    height: 24px;
+    border-radius: 0 2px 2px 0;
+    
+}
+
+._585_ {
+    position: relative !important;
+    left: 10px;
+    bottom: 1px;
+}
+
+.part3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+
+.part31 div div a, .part33 div div a{
+    display: flex;
+    align-items: center;
+    width: 80.11px;
+    height: 28px;
+    justify-content: space-evenly;
+    padding-bottom: 4px;
+}
+
+.part31 div div, .part33 div div {
+    height: 28px;
+}
+
+.part31 div div:hover, .part33 div div:hover {
+    background-color:rgba(68, 73, 80, 0.15);
+}
+
+.part31 div div a:hover, .part33 div div a:hover {
+    text-decoration: none;
+}
+
+.part33 div div a {
+    width: 55px;
+}
+
+.part31 div div a img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.part31 div a, .part33 div div a {
+    color: white;
+    font-weight: bold;
+}
+
+/* .part31:first-of-type::before {
+    content: "";
+    display: block;
+    height: 18px;
+    width: 1px;
+    position: absolute;
+    left: 572px;
+    top: 12px;
+    background: rgba(0,0,0,.1);
+}
+
+.part31:last-of-type::before {
+    content: "";
+    display: block;
+    height: 18px;
+    width: 1px;
+    position: absolute;
+    left: 672px;
+    top: 12px;
+    background: rgba(0,0,0,.1);
+} */
+
+.partIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
