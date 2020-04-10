@@ -1,0 +1,184 @@
+.BodyCenter {
+    width: 500px;
+}
+
+.createPost {
+    background-color: #F5F6F7;
+    padding: 8px 0;
+    padding-right: 24px;
+    font-weight: bold;
+    color: #4b4f56;
+    border-bottom: 1px solid #dddfe2;
+    border-radius: 2px 2px 0 0;
+}
+
+.createPost span {
+    padding: 0 8px;
+}
+
+.whatDoYouThink {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.whatDoYouThink img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 12px 0 12px 12px;
+}
+
+.whatDoYouThink textarea {
+    color: #90949C;
+    margin-left: 10px;
+    font-size:16px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    resize: none;
+    outline: none;
+    font-size: 26px;
+}
+
+.whatDoYouThink textarea:hover {
+    color: #1d2129
+}
+
+.decoration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+._2nc {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/UGTy4gwFyfK.png);
+    width: 20px;
+    height: 20px;
+    background-position:center;
+    background-size:20px;
+    margin-left: 12px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px #FFFFFF, 0 0 4px 0 rgba(0, 0, 0, .15)
+}
+
+._3nc {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/pKx59ZvARzP.png);
+    background-repeat: no-repeat;
+    background-size: 326px 630px;
+    background-position: -292px -590px;
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+.lineBreak {
+    background-color: white;
+    border-top: 1px solid #e9e9ec;
+    margin: 0 5px 0 5px;
+}
+
+
+.listFunction {
+    background-color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.listFunction ul {
+    display: flex;
+    width:100%;
+    margin: 0 12px;
+
+}
+
+.functionOne, .functionTwo, .functionThree, .functionFour {
+    height: 32px;
+    width: 132px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f6f7;
+    color: #4b4f56;
+    margin-right: 6px;
+}
+
+.functionOne span, .functionTwo span, .functionThree span {
+    padding-left: 5px;
+}
+
+.functionTwo {
+    width: 112px;
+}
+
+.functionThree {
+    width: 130px;
+}
+
+.functionFour {
+    width: 44px;
+}
+
+.channel {
+    width: 492px;
+    height: 145px;
+    background-color: #F5F6F7;
+    padding: 5px 3px 5px 5px;
+}
+
+.optionChannel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 488px;
+    height: 52px;
+}
+
+.optionChannel1{
+    display: flex;
+    align-items: center;
+    width: 391.61px;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.optionChannel2 {
+    margin-right: 4px;
+}
+
+.optionChannel2 button {
+    width: 86.39px;
+    height: 23.6px;
+    border-color: #ccd0d5;
+    background-color: #EBEDF0;
+    color: #4b4F56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonPost {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttonPost button {
+    width: 476px;
+    height: 28px;
+    background-color: #9cb4d8;
+    border: none;
+    padding: 0 16px;
+    cursor: default;
+    border-radius: 4px;
+    margin-top: 6px;
+}

@@ -1,0 +1,13 @@
+.mainBody {
+    background-color: #E9EBEE;
+    height: 100vh;
+}
+
+.body {
+    display: flex;
+    justify-content: flex-start;
+    width: 1217px;
+    margin: auto;
+    padding-top: 12px;
+    
+}

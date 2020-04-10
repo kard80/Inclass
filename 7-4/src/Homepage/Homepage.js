@@ -3,17 +3,21 @@ import BodyCenter from './BodyCenter'
 import BodyLeft from './BodyLeft'
 import BodyRight from './BodyRight'
 import NavHome from './NavHome'
-import {Col, Row} from 'antd'
+import { Col, Row } from 'antd'
+import '../style/Homepage/Homepage.css'
 
 export default class Homepage extends Component {
     render() {
         return (
-            <div>
+            <div class="Homepage">
                 <NavHome />
-                <BodyLeft />
-                <BodyCenter />
-                <BodyRight />
-
+                <div className="mainBody">
+                    <div class="body">
+                        <BodyLeft />
+                        <BodyCenter />
+                        <BodyRight />
+                    </div>
+                </div>
             </div>
         )
     }
